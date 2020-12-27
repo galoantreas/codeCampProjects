@@ -1,0 +1,152 @@
+body {
+  background-color: #8d93ab;
+}
+
+#header {
+  display: flex;
+  background-color: #393b44;
+  justify-content: space-between;
+}
+
+#header-h1 {
+  font-size: 50px;
+  font-family: Audiowide;
+}
+
+#nav-bar {
+  display: flex;
+  align-self: center;
+}
+
+#nav-bar a {
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+#nav-bar a:hover {
+  color: white;
+}
+
+#form {
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  width: 500px;
+}
+
+#form h1 {
+  font-size: 26px;
+  font-family: arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+#form h2 {
+  display: inline;
+  font-family: arial, sans-serif;
+}
+
+#submit {
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 47%;
+  background-color: #8d93ab;
+  color: #393b44;
+  border-radius: 30%;
+  box-shadow: -2px -2px #393b44;
+  border: 1px solid #393b44;
+}
+
+#email {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+main h1 {
+  font-size: 25px;
+  color: #d6e0f0;
+  padding-bottom: 10px;
+}
+
+main h2 {
+  font-size: 20px;
+  color: #f1f3f8;
+}
+
+#box {
+  display: flex;
+  width: 50%;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+.ofers {
+  border: 3px solid #393b44;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ofers h1 {
+  font-size: 30px;
+  color: #393b44;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: 4px solid #393b44;
+  background-color: #d6e0f0;
+  color: #393b44;
+  width: 140px;
+  height: 40px;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ofers p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  border: 2px solid #393b44;
+  text-align: end;
+  width: 85%;
+  margin-top: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+}
+
+footer a {
+  font-size: 25px;
+  padding-right: 5px;
+  color: rgba(9, 7, 131, 0.445);
+}
+
+footer a:hover {
+  color: blue;
+}
+
+footer a:visited {
+  color: black;
+}

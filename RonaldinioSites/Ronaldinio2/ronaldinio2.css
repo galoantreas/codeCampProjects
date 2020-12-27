@@ -1,0 +1,129 @@
+body {
+  background-color: gray;
+  margin-left: -20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+h1 {
+  font-family: Raleway;
+  font-size: 25px;
+  text-align: center;
+}
+.date {
+  font-size: 18px;
+  margin: 20px;
+}
+.tag-p {
+  box-shadow: -20px 0px rgb(65, 63, 63);
+  border: 2px none black;
+  text-align: justify;
+  margin: 20px;
+  width: 1200px;
+}
+.box-1 {
+  display: flex;
+  align-items: flex-start;
+}
+.all1 {
+  border: 1px solid black;
+  width: 600px;
+  background-color: rgb(53, 9, 9);
+  margin-bottom: 20px;
+  color: white;
+}
+.h3-1 {
+  margin-left: 27%;
+  color: rgb(53, 9, 9);
+  margin-bottom: 20px;
+}
+.h3-2 {
+  margin-left: 23%;
+  color: rgb(6, 18, 58);
+  margin-bottom: 20px;
+}
+.all2 {
+  border: 1px solid black;
+  width: 600px;
+  margin-left: 20px;
+  background-color: rgb(6, 18, 58);
+  margin-bottom: 100px;
+  color: white;
+}
+.all1,
+.all2 li {
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.all2 li {
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.allbox div {
+  display: flex;
+}
+h4 {
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration: bold;
+  margin: 10px;
+  margin-top: 30px;
+  color: rgb(53, 9, 9);
+}
+h5 {
+  font-size: 15px;
+}
+h5 bold {
+  text-decoration: underline;
+  color: rgb(6, 18, 58);
+}
+footer {
+  border: 1px solid black;
+  width: 95%;
+  margin: auto;
+  height: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(105, 105, 105);
+  color: rgb(6, 18, 58);
+  margin-top: 270px;
+}
+footer a {
+  display: flex;
+}
+footer p {
+  border: 1px none black;
+  width: 250px;
+  height: 100%;
+  margin-top: 20px;
+}
+footer a {
+  color: rgb(6, 18, 58);
+}
+h6 {
+  margin-top: 30px;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration: bold;
+  color: rgb(53, 9, 9);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form h6 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.form textarea {
+  margin-bottom: 20px;
+}
+.p h5 {
+  margin-top: 30px;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration: bold;
+  color: rgb(53, 9, 9);
+}
+a:hover {
+  color: white;
+}
